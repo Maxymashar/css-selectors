@@ -10,3 +10,20 @@ body {
   height: 100%;
   min-height: 100%;
 }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  margin: 8px;
+}
+
+.container :not(.one) {
+  background-color: blue;
+}
